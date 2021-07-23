@@ -1,7 +1,5 @@
 [![][KurentoImage]][website]
 
-Copyright © 2014 Kurento. Licensed under [LGPL License].
-
 Kurento RTSP/HTTP URI to WebRTC example
 ===========================
 Kurento Client JavaScript demos
@@ -49,21 +47,10 @@ Finally, open this URL in your browser: http://localhost:8080/
 
 Insert the RTSP or HTTP video feed into the input text and press "start"
 
-Optional parameters
--------------------
-
-The demos accept some optional GET parameters given on the URL, you only need to
-add them to the query string in the same way you would add them to the Node.js
-executable on your command line:
-
-```
-http://example.com/index.html?ws_url=ws://example.org/kurento
-```
 
 All the demos accept the *ws_url* parameter to set the WebSocket Kurento
 MediaServer endpoint, other parameters specific to each demo can be found at the
 top of their index.js files.
-
 
 Kurento
 =======
